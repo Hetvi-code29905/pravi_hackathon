@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 from beanie import Document
 from pydantic import Field
 from datetime import datetime
