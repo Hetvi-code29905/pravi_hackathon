@@ -2,7 +2,14 @@
  * Centralized API Client for Gujarat R&B Lifecycle Platform.
  */
 
-const API_BASE = "http://127.0.0.1:8000/api";
+const getApiBase = () => {
+  const envUrl = import.meta.env.VITE_API_URL;
+  if (!envUrl) return "http://127.0.0.1:8000/api";
+  const clean = envUrl.replace(/\/+$/, '');
+  return clean.endsWith('/api') ? clean : `${clean}/api`;
+};
+
+const API_BASE = getApiBase();
 
 function getAuthHeaders() {
   const token = localStorage.getItem("rnb_token");
