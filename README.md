@@ -9,6 +9,12 @@
 
 ---
 
+## 🏗️ System Architecture
+
+![PRAVI Architecture Diagram](./architecture_diagram.jpg)
+
+---
+
 ## 🌟 Key Features
 
 1. **Interactive GIS Gujarat Spatial Command Map:**
