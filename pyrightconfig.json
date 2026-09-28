@@ -1,0 +1,10 @@
+{
+  "venvPath": "backend",
+  "venv": "pravy",
+  "extraPaths": [
+    "backend",
+    "backend/app"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false
+}

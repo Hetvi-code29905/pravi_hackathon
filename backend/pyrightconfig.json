@@ -1,0 +1,10 @@
+{
+  "venvPath": ".",
+  "venv": "pravy",
+  "extraPaths": [
+    ".",
+    "app"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false
+}
