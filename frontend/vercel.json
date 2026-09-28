@@ -1,9 +1,9 @@
 {
-    "redirects": [
-        {
-            "source": "/:path*",
-            "destination": "https://pravi-hackathon-3x8w3eeup-sactech-app.vercel.app/:path*",
-            "permanent": false
-        }
-    ]
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://pravi-hackathon-3x8w3eeup-sactech-app.vercel.app/:path*",
+      "permanent": false
+    }
+  ]
 }
